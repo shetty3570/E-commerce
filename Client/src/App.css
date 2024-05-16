@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, rgb(240, 245, 248) 20%, rgba(237, 165, 236, 0.923) 80%);
+}
+.navbar{
+    margin: auto;
+    text-align: center;
+    
+}
+.headingtag1{
+    text-shadow: 7px 3px 3px rgb(10, 10, 10);
+    font-size: 30px;
+    background-image: linear-gradient(to right, rgba(208, 0, 255, 0.619) 20%, rgb(169, 109, 233) 80% );
+    margin: auto;
+    width: 25%;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    color: white;
+    font-weight: 900;
+}
+.navbar-links{
+    margin-top: 30px ;
+}
+.navbar-links .link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    background-image: linear-gradient(to right, rgba(200, 198, 198, 0.657) 30%, rgb(249, 241, 241) 70%) ;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px;
+    text-align: center;
+}
+.link{
+    margin: 200px;
+}
+.linkcart{
+    background-image: linear-gradient(to right, rgba(200, 198, 198, 0.657) 30%, rgb(249, 241, 241) 70%) ;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px;
+    margin: 0;
+}
+.homepage{
+    text-align: center;
+    margin-top: 150px;
+    text-shadow: 4px 4px 4px gray;
+    font-size: 70px;
+}
+.headingtag{
+    text-shadow: 4px 4px 9px rgb(112, 97, 97);
+}
+
+
+/* register*/
+
+.container{
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    border: 1px solid  ;
+    width: 500px;
+    padding: 100px;
+    box-shadow: 5px 5px 10px rgb(75, 69, 69);
+    border-radius: 40px;
+}
+.headingtag2{
+    margin-bottom: 30px;
+    margin-top: -30px;
+    text-shadow: 4px 5px 9px rgb(239, 68, 217);
+}
+label{
+    margin: 30px;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px rgb(232, 172, 238);
+    margin-bottom: 40px;
+}
+
+input{
+    border: 2px solid rgba(128, 128, 128, 0.432);
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  button{
+    margin-top: 20px;
+    height: 30px;
+    width: 60px;
+    border: 2px solid rgba(128, 128, 128, 0.432);
+    border-radius: 20px;
+  }
