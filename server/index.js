@@ -1,4 +1,4 @@
-const RunServer = require("./database/connection");
+const RunServer = require("./Database/connection");
 const express = require('express')
 const cors = require('cors')
 const helmet = require('helmet')
